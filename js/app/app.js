@@ -4,7 +4,7 @@ angular.module('snaprx', ['ui.router'])
 	   	var home = {
               name: 'home',
               url:'/home',
-              templateUrl: '/html/Home.html',
+              templateUrl: 'html/Home.html',
               controller: 'SnapRxController'
             };
              $stateProvider.state(home);
