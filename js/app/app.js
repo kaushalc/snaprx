@@ -20,6 +20,8 @@ angular.module('snaprx', ['ui.router'])
            $state.transitionTo('home.login'); 
         }])
 	   .controller('SnapRxController',['$scope','$state','$http',function($scope,$state,$http){
-              	
+              	$scope.launchApp = function($state){
+                  $state.transitionTo('home'); 
+                }
         }])
 ;
